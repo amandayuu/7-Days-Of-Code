@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    background-color: #17162e;
+    font-family: 'Montserrat','Arial',sans-serif;
+}
+
+.title {
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 62px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.search-input {
+    height: 74px;
+    width: 634px;
+    border-radius: 8px; 
+    display: flex;
+    margin: 48px auto 30px auto;
+    background-color: #454558;
+}
+
+.input-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.input-container input {
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.input-container input-icon {
+    cursor: pointer;
+}
+.input-icon {
+    max-height: 28px;
+    display: flex;
+}
+
+.fav-movie {
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox-input {
+    border: 2px solid #706EA8;
+    border-radius: 4px;
+}
+
+.info-text {
+    color: #fff;
+    padding-left: 11px;
+}
+
+.movie-list {
+    list-style: none;
+}
+
+.card {
+    display: flex;
+    margin: 20px auto;
+    background: #1D1C3B;
+    max-width: 1224px;
+    height: 180px;
+    padding: 29px 37px;
+    margin-bottom: 48px;
+}
+
+.movie-avatar {
+    border-radius: 50%;
+    margin: auto 10px auto;
+}
+
+.teste {
+    flex-wrap: wrap;
+    margin: auto 50px;
+}
+
+.teste2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-movie-title {
+    color: #fff;
+}
+
+.card-rate {
+    display: flex;
+    align-items: center;
+}
+
+.card-rate p {
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.card-description {
+    color: #ACACAC;
+    max-width: 500px;
+    margin: auto;
+}
